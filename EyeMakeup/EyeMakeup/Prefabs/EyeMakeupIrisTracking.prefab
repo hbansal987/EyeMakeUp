@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3055713888149209893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3055713888149209890}
+  - component: {fileID: 3055713888149209891}
+  - component: {fileID: 644215818172731715}
+  m_Layer: 0
+  m_Name: EyeMakeupIrisTracking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3055713888149209890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055713888149209893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3055713888149209891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055713888149209893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194d9cf12b07244e69945dc844672244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gpuConfig: {fileID: 4900000, guid: a4a40d2e9a6fc9988bbe1709d68feca3, type: 3}
+  cpuConfig: {fileID: 4900000, guid: 89fdd5fb61387dfa6820a7eac95ebc76, type: 3}
+  androidConfig: {fileID: 4900000, guid: e6b68ac4530cf44f68837f8a7a31d1cf, type: 3}
+--- !u!114 &644215818172731715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3055713888149209893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e34e349841f40abb7f05833418f594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applyMakeup: 1
+  flipImage: 1
+  filterStability: 0.45
+  linerStability: 0.2
+  linerKernelW: 2
+  linerKernelH: 3
+  linerThickness: 1
+  borderDecrement: 6
+  pointsTopH: 296
+  pointsTopS: 33
+  pointsTopV: 59
+  pointsTopBlending: 35
+  pointsTopBorderSmooth: 50
+  pointsMidH: 339
+  pointsMidS: 58
+  pointsMidV: 51
+  pointsMidBlending: 58
+  pointsMidBorderSmooth: 27
+  pointsBotH: 330
+  pointsBotS: 71
+  pointsBotV: 42
+  pointsBotBlending: 53
+  pointsBotBorderSmooth: 32
+  pointsUndH: 248
+  pointsUndS: 67
+  pointsUndV: 1
+  pointsUndBlending: 40
+  pointsUndBorderSmooth: 16
+  pointsTop2H: 296
+  pointsTop2S: 33
+  pointsTop2V: 59
+  pointsTop2Blending: 35
+  pointsTop2BorderSmooth: 50
+  pointsMid2H: 339
+  pointsMid2S: 58
+  pointsMid2V: 51
+  pointsMid2Blending: 58
+  pointsMid2BorderSmooth: 27
+  pointsBot2H: 330
+  pointsBot2S: 71
+  pointsBot2V: 42
+  pointsBot2Blending: 53
+  pointsBot2BorderSmooth: 32
+  pointsUnd2H: 332
+  pointsUnd2S: 19
+  pointsUnd2V: 7
+  pointsUnd2Blending: 33
+  pointsUnd2BorderSmooth: 15
